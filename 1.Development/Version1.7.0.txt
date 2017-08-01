@@ -6,7 +6,7 @@ Added documentation extracts change depending on selected container layout
 Added code to GitHub
 Added Negative Fiscal Year in CalendarGen.qvs
 Added support for QlikView Components into 99.LoadAll.qvs
-Added Alias switch in LCGV, uses the added alias name instead of prefix in the generated global variables 
+Added Alias switch in LCGV, uses the added alias name instead of prefix in the generated global variables
 Changed Sub Function library loaded from shared folders if exist
 Minor updates due to Qlik Sense file format changes (returned / instead of \)
 Added Global Variable cache during initiation, to speed up init
@@ -33,7 +33,7 @@ Documentation improvements
 Whats new in release 1.5.1?
 Added support for QlikView 12
 Added Major improvements of the IndexLoad function
-Added Smart idetification of container folders, folder numbers (1.) can be removed 
+Added Smart idetification of container folders, folder numbers (1.) can be removed
 Added Smart idetification makes it possible to add Extract/Transfor/Load folders under the QVD folder
 Added Northwind (qvw,qvf) IndexLoad and LoadVariableCSV Examples  in example container
 Added KPI.Variables.csv variable file in example container (used by Northwind)
@@ -47,11 +47,11 @@ Fixed bug, DoDir function did not return initial folder when using folders only 
 Stability enhancements to VariableEditor
 Qlik Sense enhancements to LoadContainerMap function
 DoDir enhancements, wild cards *sales*, *sales*.qvd now supported
-Added functionality in InitLink.qvs for both Sense and QlikView 
+Added functionality in InitLink.qvs for both Sense and QlikView
 Added Fiscal YTD Flag and Fiscal PYTD Flag to CalendarGen function /thx qliknerd (Qlik community)
 Fixed minor bug in CalendarGen /thx Bo
 Update Info.txt files in all container folders
-Added validation of qvd version (Qlik Sense and QlikView) in 8.QVFileInfo.qvs 
+Added validation of qvd version (Qlik Sense and QlikView) in 8.QVFileInfo.qvs
 Changed Index behaviour, problems found when not using table names in the Index
 Faster Min and Max search in CalendarGen function /thx Damian
 Fixed minor bug in 2.LoadVariableCSV.qvs function /thx Damian
@@ -81,7 +81,7 @@ Cleaned up Variable Editor settings page and divided it into two different versi
 Repaired Variable Editor for the use of Variable Templates we will create a KPI library
 Fixed bug in FileExist SUB function
 Simplified and added some tweaks in the Variable Editor UI
-Added separate Upgrade page in Variable Editor 
+Added separate Upgrade page in Variable Editor
 Optional Example Container including examples is now available, all examples stored in 0.Administration container are removed
 Fixed bug in DoDir sub function when using folder only mode
 Added new DoDirFileNameCount field in DoDir table
@@ -126,7 +126,7 @@ Updated version of the Governance Dashboard script (bug fixed and added function
 Fixed Bug that would make Variable Editor hang during start (due to inputfields)
 Minor Variable Editor UI improvements (new Design Layout View)
 VariableEditor Shortcut in Administration container
-Added possibility to use development release CreateGlobalVariablesByFolderName.zip 
+Added possibility to use development release CreateGlobalVariablesByFolderName.zip
 Fix bug removing = when creating global variables for example Google Map
 Error in variable Editor when using "Save Before Reload" setting
 New upgrade wizard mode in Deploy tool that upgrade framework to latest release
@@ -135,9 +135,9 @@ Locale Change reame Eng to US, added Aus and UK
 Change ConnStrings to Must_Include in the documentation + other minor doc additions
 New Variable Editor function to add and remove variable files
 Fix error when using wrong charters in variables (charters are removed)
-Better check if Variable prefix is duplecated 
+Better check if Variable prefix is duplecated
 Remove Copy SystemVariables to all containers function in Variable Editor Settings
-Container map is now replicated to containers by use of Store into function  
+Container map is now replicated to containers by use of Store into function
 
 
 Whats new in release 1.2?
@@ -149,8 +149,8 @@ Minor fix in 2.LoadVariableCSV.qvs, variable prefix containing a space would hal
 Minor enhancements in 2.LoadVariableCSV.qvs, changed to utf8 (miss) and no longer needed to type SET in front of variable.
 
 What's new in release 1.1?
-Changed Variable Editor to use a Macro when reloading, much more silent now :) 
-New switch SET vG.SkippInit ='True' will skipp 1.Init.qvs script. 
+Changed Variable Editor to use a Macro when reloading, much more silent now :)
+New switch SET vG.SkippInit ='True' will skipp 1.Init.qvs script.
 
 Whats new in release 1 (1.0)?
 Replacing / with \ in Container Map Editor
@@ -160,7 +160,7 @@ Added CalendarGen example application
 Changed back to UTF8 after compability issiues
 Added Robocopy fallback if Container creation fails (see ContainerCreation.log if it's created)
 load several Global Container Variables at once by use of ; as separator:
-call LoadContainerGlobalVariables('SAP','QVD;Include;Application'); 
+call LoadContainerGlobalVariables('SAP','QVD;Include;Application');
 
 
 Whats new in Pre-Release 1 (0.99)?
@@ -181,7 +181,7 @@ Found bug in 3.LoadContainerMap.qvs creating error if empty row is found in the 
 Bug in 2.LoadVariableCSV.qvs, complicated expressions do not calculate properly
 Bug in 2.LoadVariableCSV.qvs, ContainerMapMode does not work
 New 6.CreateFolder.qvs Function will validate and create missing folders
-QV System Monitor v4.1 are Included and configured to work with DF 
+QV System Monitor v4.1 are Included and configured to work with DF
 Variable Editor Container Map will now add file emty rows in the end when needed (instead of working with 200 rows), this to increase reload speed
 Variable Editor editor will now add file emty rows in the end when needed (instead of working with 999 rows), this to increase reload speed
 
@@ -201,12 +201,12 @@ Better sort in Variable Editor Container Map Tree view (thanks Henrik)
 Changing 1.Init Containerstructure inline Table to vL.Containerstructure not to get any conflicts
 Variable Editor buggs
 2.LoadVariableCSV.qvs, Fix so that = will work together with LET
-Variable Editor during start Changing to Variable tab 
-Variable Editor fixing macro imputfield reset bug 
+Variable Editor during start Changing to Variable tab
+Variable Editor fixing macro imputfield reset bug
 
 Whats new in 0.95?
 Added automatic upgrade functionality in Variable Editor, Put update files in 0.Template\ContainerUpgrades folder use upgrade button in Variable Editor
-Added new Setting in VariableEditor "Copy to Alt Root Path Containers" (Turned off by default) 
+Added new Setting in VariableEditor "Copy to Alt Root Path Containers" (Turned off by default)
 Added new Setting in VariableEditor "Copy Variable Editor to new Containers"
 Several bug fixes in VariableEditor
 VariableEditor cleanup
@@ -303,7 +303,7 @@ Added default support for Windows 2003 in SystemSettings.qvs
 
 
 Whats new in 0.55?
-New Sub 1.FileExist.qvs to check if a file exists on the filesystem, 
+New Sub 1.FileExist.qvs to check if a file exists on the filesystem,
 Use before load statements to avoid errors during script load
 
 Create New Container populate tool: New copy SystemVariables.qvs into container function.
